@@ -1,0 +1,35 @@
+.contador{
+    border:2px solid red;
+    border-radius:8px;
+    left:50%;
+    top:50%;
+    position:absolute;
+    transform: translate(-50%,-50%);
+    text-align:center;
+
+    display:flex;
+}
+
+.value{
+    border:2px solid blue;
+    margin:8px auto;
+    padding:8px;
+    width:20%;
+}
+.box-left{
+    border:2px solid yellow;
+    margin:20px;
+    padding:8px;
+}
+.buttons{
+    display:flex;
+    flex-flow:column;
+    justify-content: space-between;
+    border:2px solid pink;
+    margin:20px;
+}
+
+.buttons button{
+    margin:8px;
+    padding: 8px;
+}
